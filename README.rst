@@ -51,6 +51,7 @@ Create a composer.json in the root folder of your project and declare this stand
 
 
         {
+                "minimum-stability": "alpha",
                 "require": {
                         "typo3-ci/typo3cms": "1.0.0-alpha"
                 }
@@ -61,6 +62,7 @@ This will install version 1.0.0-alpha of this standard. If you live on the edge,
 ::
 
         {
+                "minimum-stability": "alpha",
                 "require": {
                         "typo3-ci/typo3cms": "dev-master"
                 }
